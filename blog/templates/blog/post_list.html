@@ -19,7 +19,7 @@ that was most likely a terrible idea, to which has little exceptions. Unless, of
     <strong><em>like</em></strong> an idiot.</p>
 
         <h3>list</h3>
-    </head>
+
     <ul><li>first item</li><li>second item</li><li>third item</li></ul>
 
     </body>
@@ -29,4 +29,50 @@ that was most likely a terrible idea, to which has little exceptions. Unless, of
     <div>
 <h3><a href="">And here is a link that goes nowhere</a></h3>
     </div>
+
+    <h2>Random Topics.</h2>
+    <h3>To Do List</h3>
+
+    <ul><li>Document growth of the nepenthes carnivorous plant.
+    include TO SCALE sketches and a polaroid photo of the plant currently.
+    Do not forget to update this as plant makes major developments.</li>
+    <li>Continue experimentation with planting methods of seeded fruits. Water reqularly.
+    and make sure to plant the tomato seeds which have been drying on a paper towel on the
+    RIGHT side of the pot. On the left is where you planted the undried seeds straight from the tomato.</li>
+    <li>Check on and plant apple seeds! Should have germinated by now, remove from fridge and plant.
+    keep record of growth.</li><li>Experiment with online loops to create harmonies for the accordion.</li>
+    <li>test different ways of introducing hamonies for Choral Festival. Pick the best one and discuss with
+    other conductors. Plan methods of teaching and conducting, make sure there is no room for error,
+        or awkward moments of not knowing what to do.</li>
+        <li>Plan to see Alannah before or within the first week of school. Organise list of songs with
+        chords for ukulele. Choose at least 3/4 top 40 songs to practise harmonising as seems to be her
+        preferred genre, and bring some personal favorites to run through for fun (Kimya Dawson
+        to shock her a bit)</li><li>Find and record all sims codes into personal tracking book.
+        take to Gold Coast wth laptop and latest extension.</li><li>Find out how to make DIY custom wax
+        seal stamp.</li><li>Sell something online and see if it works.</li><li>Plan movies for horror night.
+        possible movie ideas go as follows: Carrie(19?/20?), Hush, Orphan, Child's play. Organise
+        snacks and board games (taboo etc.) to play between movies for a small break. Playlist of songs for day
+        (not your songs... bad idea)</li><li>Find long, preferably dead bamboo stick/tree/stem/plant? to
+            pick things up and push open as well as close the door for the dog without needing to constantly stand.
+            If traces of dirt are found, wash and widdle/carve away outer layer. Apply protective hard shield
+            spray or the like.</li></ul>
+
+
+    <h3>To buy For Future plans/projects</h3>
+    <ul><li>Separate tracking book to track unusual occurrences in overnight visuals.
+    </li><li>Core wool for felting</li><li>DIY wax seal stamp equipment
+        stamp. (may need carving utensils)</li><li>Look up and plan for birthdays</li><li>Plant seeds for
+    either herbs or edible flowers.</li></ul>
+
+    <div>
+    <h1><a href="/">Django Girls Blog</a></h1>
+</div>
+
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
 </html>
